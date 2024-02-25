@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+}
+.left-bar
+{
+    width: 100%;
+    background-color: rgb(200, 197, 197);
+    max-width: 200px;
+}
+
+.heading-1
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+input
+{
+    padding: 12px;
+    box-shadow:  0 0 5px rgba(0,0,0,.3);
+    border: none;
+    width: 100%;
+}
+input::placeholder
+{
+    color: #777;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menu-bar
+{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.menu-content
+{
+    color: #000;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: background-color .3s ease;
+}
+.menu-content:hover
+{
+    background-color: aliceblue;
+}
+
+.heading-2
+{
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right-bar
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(158, 156, 156);
+    padding: 20px;
+} 
+
+
+p
+{
+    font-size: 17px;
+    width: 100%;
+    line-height: 50px;
+}
